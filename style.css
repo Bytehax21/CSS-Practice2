@@ -19,7 +19,7 @@ body{
 }
 .container{
     width: 335px;
-    max-height: 522px;
+    height: 470px;
     background: #FFFFFF;
     padding: 24px;
     margin: 219px auto;
@@ -66,7 +66,7 @@ body{
 }
 
 .content  p:nth-child(2){
-    margin-top: 24px;
+    margin: 16px 0 18px 0;
 
     
     color: var(--prim-color);
@@ -74,11 +74,18 @@ body{
 }
 
 .content  p:nth-child(4){
-    margin-top: 24px;
+    margin-top: 18px;
 
     font-weight: var(--sm-font-weight);
     color: var(--sec-color);
     font-size: 16px;
+    line-height: 1.5rem;
+
+}
+.author{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
 }
 .author span{
     font-weight: var(--strong-font-weight);
